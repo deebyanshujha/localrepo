@@ -4,6 +4,8 @@ int main(){
     int a;
     scanf("%d",&a);
     printf("How are you?");
-    printf("This is a new feature ");
+    for(int i = 0;i<7;i++){
+        printf("%d",i);
+    }
     return 0;
 }
